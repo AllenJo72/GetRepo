@@ -6,5 +6,6 @@ with open("config/config.json") as json_file:
         json_data = json.load(json_file)     
 print("[*] Getting Repositories of: " + str(json_data["user"]))
 print("----")
+print("Hit Enter")
 get_repo()
 
